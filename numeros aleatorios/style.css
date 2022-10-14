@@ -1,0 +1,106 @@
+body {
+
+  font-family: sans-serif;
+  background-color: var(--c13);
+
+}
+
+:root {
+  --c0: #ffffff;
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dedede;
+  --c4: #cccccc;
+  --c5: #b2b2b2;
+  --c6: #9c9c9c;
+  --c7: #717171;
+  --c8: #595959;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #111111;
+  --c12: #b1a9a9;
+  --c13: #38445c;
+
+
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button {
+  color: #000;
+  border-radius: 4px;
+  width: 15em;
+  height: 5em;
+  font-size: 20px;
+  background: #b2b2b2;
+  cursor: pointer;
+
+
+
+
+}
+
+.button:hover {
+  background: #595959;
+
+}
+
+
+
+h2 {
+  font-size: 2rem;
+  width: max-content;
+}
+
+.resultado-final {
+  border: 1px solid var(--c12);
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 30px;
+  width: 2em max-content;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  grid-template-rows: 2;
+  align-content: center;
+  width: 1fr;
+
+
+}
+
+.mincss {
+  grid-column: 1;
+
+}
+
+.maxcss {
+  grid-column: 2;
+
+}
+
+.inputs {
+  width: 60px;
+  height: 60px;
+  font-size: 2em;
+
+}
+
+.grid h3 {
+  text-align: right;
+
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+
+}
